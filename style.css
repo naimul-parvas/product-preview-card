@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+  
+    max-width: 100%;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(241, 233, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    border-radius: 15px;
+ overflow: hidden;
+  
+}
+.container .image{
+    width: 50%;
+   
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #fff;
+}
+.perfume{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #4b4444;
+    
+    font-family: "Outfit", sans-serif;
+}
+
+.img-one{
+    display: block;
+}
+.img-two{
+   display: none;
+}
+.container h2{
+    font-size: 32px;
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    color: #4b4444;
+}
+.container p{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: #4b4444;
+}
+.prize{
+    display: flex;
+    gap: 30px;
+  
+    
+
+}
+.prize h1{
+    font-family: "Young Serif", serif;
+    color: #046625;
+  
+    font-weight: 1000;
+    font-size: 30px;
+}
+.prize del{
+    font-family: "Young Serif", serif;
+    color: #4b4444;
+ 
+    font-size: 16px;
+}
+button{
+    padding: 10px;
+    background-color: #076627;
+    color: #ffffff;
+    font-family: "Young Serif", serif;
+    font-size: 16px;
+   border: none;
+   border-radius: 10px;
+width:100%;
+}
+.button img{
+    position: absolute;
+padding: 10px;
+padding-left: 40px;
+cursor: pointer;
+transition: background-color 3s case;
+}
+
+button:hover{
+    background-color: #003b28;
+}
+
+
+@media(max-width:650px){
+
+
+     .container{
+        flex-direction: column;
+        height: 610px;
+        width: 345px;
+    }
+    .container .image{
+        width: 100%;
+       height: 240px;
+    }
+.img-one{
+    display: none;
+}
+.img-two{
+    display: block;
+}
+
+.content{
+    width: 100%;
+    height: 370px;
+}
+
+.prize h1{
+   
+    font-size: 20px;
+}
+.container h2{
+    font-size: 28px;
+    letter-spacing: 1px;
+    
+}
+.container p{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: #4b4444;
+}
+button{
+    
+    font-size: 14px;
+    letter-spacing: 1px;
+   
+}
+
+.prize del{
+    font-family: "Young Serif", serif;
+    color: #4b4444;
+ 
+    font-size: 14px;
+}
+
+
+
+}
+
